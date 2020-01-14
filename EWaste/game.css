@@ -1,0 +1,74 @@
+.container {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#board {
+    width:  800px;
+    height: 800px;
+    padding: 16px;
+}
+
+.tile {
+    width: 19%;
+    height: 20%;
+    float: left;
+    margin: 2px;
+    border:  #cfbd6d 1px solid;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+    background-image: url("/images/rookie.png") ;
+
+}
+
+.tile:hover{
+    background-color: #f0db81;
+}
+
+
+.tile.flipped {
+    background-color: white;
+;
+}
+
+.image_tile{
+    width: 100%;
+    height: 100%;
+}
+
+/*media queries*/
+
+@media only screen and (min-width: 720px) and (max-width: 1023px){
+
+    #board{
+        text-align: center;
+        padding: 16px;
+        width: 1000px;
+        height: 1000px;
+    }
+    .tile{
+        width: 19%;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    #board{
+        text-align: center;
+        padding: 16px;
+        width: 700px;
+        height: 700px;
+    }
+
+    .tile{
+        height: 14%;
+    }
+    .image_tile{
+        width: 100%;
+        height: 100%;
+    }
+}

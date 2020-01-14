@@ -1,0 +1,204 @@
+
+/*fonts*/
+@font-face {
+    font-family: 'Museum';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./media/fonts/raisonne-demibold.woff) format('woff');
+}
+@font-face {
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./media/fonts/NYKdark.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'bodyNY';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./media/fonts/NY-regular.otf) format('truetype');
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.half-width{
+    width: 50%;
+}
+/*IDs*/
+#undertext{
+    margin-left: 10%;
+    margin-top: -3%;
+}
+
+#circuit1{
+    margin: 30px;
+}
+/*classes*/
+.big-number{
+   width: 100%;
+    height: auto;
+}
+
+.footer{
+    height: 200px;
+    background-color: #AD7361;
+}
+
+.footer-wrapper{
+    margin: 50px;
+}
+
+.reduce-high-def{
+    width: 100%;
+}
+
+.title_main{
+    font-family: 'Museum', serif;
+    font-size: 130px;
+    animation-name: text-opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.fancy{
+    font-family: 'NewYork', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+    animation-name: text-opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    margin-top: -80px;
+    margin-bottom: -100px;
+}
+.subtitle{
+    font-size: 30px;
+}
+
+#tower{
+    margin-top: -240px;
+}
+
+.big-text{
+    font-size: 28px;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-thumbnail{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.process-thumbnail{
+    text-align: center;
+    width: auto;
+    height: 400px;
+}
+
+section{
+    padding: 50px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+header{
+    background-color: #FCE373;
+}
+
+h1{
+    font-family: 'NewYork', serif;
+    font-size: 80px;
+}
+
+h2{
+    font-family: 'bodyNy', serif;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'bodyNY', serif;
+    font-size: 20px;
+}
+
+.big-image{
+    width: 800px;
+    height: auto;
+}
+
+/*navbar*/
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*navbar*/
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.nav-li {
+    float: left;
+}
+
+.nav-li .nav-a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #AD7361;
+}
+
+.nav-text {
+    font-family: 'Museum', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/*animations or serves animation purpose*/
+
+@keyframes text-opacity {
+    from{opacity: 0}
+    to{opacity: 100%}
+
+}
+
