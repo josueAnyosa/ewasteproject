@@ -199,6 +199,33 @@ li a:hover {
 @keyframes text-opacity {
     from{opacity: 0}
     to{opacity: 100%}
+}
+
+/*Responsiveness*/
+@media only screen and (min-width: 1090px) and (max-width: 1401px){
+    h1{
+        font-size: 50px;
+    }
+    
 
 }
+@media only screen and (min-width: 720px) and (max-width: 1090px){
+    /*IDs*/
+    #pageName{
+        font-size: 60px;
+        padding: 30px;
+    }
+    .logo{
+        height: 200px;
+        width: auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 719px) {
+
+
+}
+
 
