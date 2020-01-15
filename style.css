@@ -206,15 +206,54 @@ li a:hover {
     h1{
         font-size: 50px;
     }
-    
+    h2{
+        font-size: 20px;
+    }
+    .flexRow{
+        display: flex;
+        flex-direction: column;
+    }
+    #tower{
+        margin-top: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .process-thumbnail{
+        height: 450px;
+        width: 400px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .big-number{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    #undertext{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .big-text{
 
+    }
+    .subtitle{
+        font-size: 40px;
+    }
 }
 @media only screen and (min-width: 720px) and (max-width: 1090px){
     /*IDs*/
     #pageName{
         font-size: 60px;
         padding: 30px;
+
     }
+
     .logo{
         height: 200px;
         width: auto;
