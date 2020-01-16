@@ -258,13 +258,49 @@ li a:hover {
         height: 200px;
         width: auto;
     }
+    .flexRow{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
 
 @media only screen and (max-width: 719px) {
 
+    .flexRow{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .process-thumbnail{
+        width: 40%;
+        height: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #tower{
+        margin-top: 20px;
+        width: 40%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title_main{
+        font-size: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
