@@ -194,6 +194,7 @@ li a:hover {
     font-size: 30px;
 }
 
+
 /*animations or serves animation purpose*/
 
 @keyframes text-opacity {
@@ -245,6 +246,7 @@ li a:hover {
     .subtitle{
         font-size: 40px;
     }
+
 }
 @media only screen and (min-width: 720px) and (max-width: 1090px){
     /*IDs*/
@@ -255,14 +257,40 @@ li a:hover {
     }
 
     .logo{
-        height: 200px;
-        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title_main{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 40px;
     }
     .flexRow{
         display: flex;
         flex-direction: column;
     }
-
+    #tower{
+        margin-top: 20px;
+        width: 40%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .process-thumbnail{
+        width: 40%;
+        height: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-burning{
+        width: 90%;
+        height: auto;
+    }
 }
 
 
@@ -300,6 +328,10 @@ li a:hover {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .image-burning{
+        width: 90%;
+        height: auto;
     }
 }
 
